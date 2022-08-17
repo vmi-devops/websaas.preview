@@ -36,6 +36,7 @@ jobs:
           pwd
           ls -al
           cd action
+          python3 -m pip install websocket-client
           python3 edgeMain.py
           echo Add other actions to build,
           echo test, and deploy your project.
