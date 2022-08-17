@@ -1,0 +1,396 @@
+{
+    "Objects": {
+      "Object": {
+        "@ObjectClass": "Browser",
+        "@Name": "百度一下，你就知道",
+        "Properties": {
+          "Property": [
+            {
+              "@Name": "title",
+              "@Hidden": "1",
+              "@ReadOnly": "1",
+              "@Type": "STRING",
+              "Value": {
+                "@RegularExpression": "0",
+                "#text": "百度一下，你就知道"
+              }
+            },
+            {
+              "@Name": "openurl",
+              "@Hidden": "1",
+              "@ReadOnly": "1",
+              "@Type": "STRING",
+              "Value": {
+                "@RegularExpression": "0",
+                "#text": "https://www.baidu.com"
+              }
+            },
+            {
+              "@Name": "opentitle",
+              "@Hidden": "1",
+              "@ReadOnly": "1",
+              "@Type": "STRING",
+              "Value": {
+                "@RegularExpression": "0",
+                "#text": "百度一下，你就知道"
+              }
+            },
+            {
+              "@Name": "openedbytestingtool",
+              "@Hidden": "1",
+              "@ReadOnly": "1",
+              "@Type": "BOOL",
+              "Value": {
+                "@RegularExpression": "0",
+                "#text": "0"
+              }
+            },
+            {
+              "@Name": "number of tabs",
+              "@Hidden": "1",
+              "@ReadOnly": "1",
+              "@Type": "NUMBER",
+              "Value": {
+                "@RegularExpression": "0",
+                "#text": "1"
+              }
+            },
+            {
+              "@Name": "name",
+              "@Hidden": "1",
+              "@ReadOnly": "1",
+              "@Type": "STRING",
+              "Value": {
+                "@RegularExpression": "0",
+                "#text": "百度一下，你就知道"
+              }
+            },
+            {
+              "@Name": "micclass",
+              "@Hidden": "1",
+              "@ReadOnly": "1",
+              "@Type": "STRING",
+              "Value": {
+                "@RegularExpression": "0",
+                "#text": "Browser"
+              }
+            },
+            {
+              "@Name": "browserindex",
+              "@Hidden": "1",
+              "@ReadOnly": "1",
+              "@Type": "I2",
+              "Value": {
+                "@RegularExpression": "0",
+                "#text": "4"
+              }
+            }
+          ]
+        },
+        "BasicIdentification": {
+          "PropertyRef": "micclass",
+          "OrdinalIdentifier": {
+            "@Type": "creationtime",
+            "Value": "0"
+          }
+        },
+        "SmartIdentification": {
+          "@Algorithm": "Mercury.TolerantPriority",
+          "@Active": "1",
+          "BaseFilter": {
+            "PropertyRef": "micclass"
+          },
+          "OptionalFilter": {
+            "PropertyRef": [
+              "name",
+              "title",
+              "openurl",
+              "opentitle",
+              "openedbytestingtool",
+              "number of tabs"
+            ]
+          }
+        },
+        "LastUpdateTime": "Wednesday, July 27, 2022 2:25:01 PM",
+        "ChildObjects": {
+          "Object": {
+            "@ObjectClass": "Page",
+            "@Name": "百度一下，你就知道",
+            "Properties": {
+              "Property": [
+                {
+                  "@Name": "user-input in post data",
+                  "@Hidden": "1",
+                  "@ReadOnly": "1",
+                  "@Type": "STRING",
+                  "Value": {
+                    "@RegularExpression": "0"
+                  }
+                },
+                {
+                  "@Name": "user input in get data",
+                  "@Hidden": "1",
+                  "@ReadOnly": "1",
+                  "@Type": "STRING",
+                  "Value": {
+                    "@RegularExpression": "0"
+                  }
+                },
+                {
+                  "@Name": "url without form data",
+                  "@Hidden": "1",
+                  "@ReadOnly": "1",
+                  "@Type": "STRING",
+                  "Value": {
+                    "@RegularExpression": "0",
+                    "#text": "https://www.baidu.com"
+                  }
+                },
+                {
+                  "@Name": "url",
+                  "@Hidden": "1",
+                  "@ReadOnly": "1",
+                  "@Type": "STRING",
+                  "Value": {
+                    "@RegularExpression": "0",
+                    "#text": "https://www.baidu.com"
+                  }
+                },
+                {
+                  "@Name": "title",
+                  "@Hidden": "1",
+                  "@ReadOnly": "1",
+                  "@Type": "STRING",
+                  "Value": {
+                    "@RegularExpression": "0",
+                    "#text": "百度一下，你就知道"
+                  }
+                },
+                {
+                  "@Name": "non user-input in post data",
+                  "@Hidden": "1",
+                  "@ReadOnly": "1",
+                  "@Type": "STRING",
+                  "Value": {
+                    "@RegularExpression": "0"
+                  }
+                },
+                {
+                  "@Name": "non user-input in get data",
+                  "@Hidden": "1",
+                  "@ReadOnly": "1",
+                  "@Type": "STRING",
+                  "Value": {
+                    "@RegularExpression": "0"
+                  }
+                },
+                {
+                  "@Name": "micclass",
+                  "@Hidden": "1",
+                  "@ReadOnly": "1",
+                  "@Type": "STRING",
+                  "Value": {
+                    "@RegularExpression": "0",
+                    "#text": "Page"
+                  }
+                },
+                {
+                  "@Name": "index",
+                  "@Hidden": "1",
+                  "@ReadOnly": "1",
+                  "@Type": "NUMBER",
+                  "Value": {
+                    "@RegularExpression": "0",
+                    "#text": "40019"
+                  }
+                },
+                {
+                  "@Name": "form data",
+                  "@Hidden": "1",
+                  "@ReadOnly": "1",
+                  "@Type": "STRING",
+                  "Value": {
+                    "@RegularExpression": "0"
+                  }
+                },
+                {
+                  "@Name": "document size",
+                  "@Hidden": "1",
+                  "@ReadOnly": "1",
+                  "@Type": "STRING",
+                  "Value": {
+                    "@RegularExpression": "0"
+                  }
+                },
+                {
+                  "@Name": "all data in get method",
+                  "@Hidden": "1",
+                  "@ReadOnly": "1",
+                  "@Type": "STRING",
+                  "Value": {
+                    "@RegularExpression": "0"
+                  }
+                }
+              ]
+            },
+            "BasicIdentification": {
+              "PropertyRef": "micclass"
+            },
+            "SmartIdentification": {
+              "@Algorithm": "Mercury.TolerantPriority",
+              "@Active": "1",
+              "BaseFilter": {
+                "PropertyRef": "micclass"
+              },
+              "OptionalFilter": {
+                "PropertyRef": [
+                  "title",
+                  "url"
+                ]
+              }
+            },
+            "LastUpdateTime": "Wednesday, July 27, 2022 2:25:01 PM",
+            "ChildObjects": {
+              "Object": {
+                "@ObjectClass": "WebButton",
+                "@Name": "百度一下",
+                "Properties": {
+                  "Property": [
+                    {
+                      "@Name": "micclass",
+                      "@Hidden": "1",
+                      "@ReadOnly": "1",
+                      "@Type": "STRING",
+                      "Value": {
+                        "@RegularExpression": "0",
+                        "#text": "WebButton"
+                      }
+                    },
+                    {
+                      "@Name": "_xpath",
+                      "@Hidden": "1",
+                      "@ReadOnly": "1",
+                      "@Type": "STRING",
+                      "Value": {
+                        "@RegularExpression": "0",
+                        "#text": "//INPUT[@id=\"su\"]"
+                      }
+                    },
+                    {
+                      "@Name": "visible",
+                      "@Hidden": "1",
+                      "@ReadOnly": "1",
+                      "@Type": "BOOL",
+                      "Value": {
+                        "@RegularExpression": "0",
+                        "#text": "-1"
+                      }
+                    },
+                    {
+                      "@Name": "value",
+                      "@Hidden": "1",
+                      "@ReadOnly": "1",
+                      "@Type": "STRING",
+                      "Value": {
+                        "@RegularExpression": "0",
+                        "#text": "百度一下"
+                      }
+                    },
+                    {
+                      "@Name": "type",
+                      "@Hidden": "0",
+                      "@ReadOnly": "0",
+                      "@Type": "STRING",
+                      "Value": {
+                        "@RegularExpression": "0",
+                        "#text": "submit"
+                      }
+                    },
+                    {
+                      "@Name": "name",
+                      "@Hidden": "0",
+                      "@ReadOnly": "0",
+                      "@Type": "STRING",
+                      "Value": {
+                        "@RegularExpression": "0",
+                        "#text": "百度一下"
+                      }
+                    },
+                    {
+                      "@Name": "html tag",
+                      "@Hidden": "0",
+                      "@ReadOnly": "0",
+                      "@Type": "STRING",
+                      "Value": {
+                        "@RegularExpression": "0",
+                        "#text": "INPUT"
+                      }
+                    },
+                    {
+                      "@Name": "html id",
+                      "@Hidden": "1",
+                      "@ReadOnly": "1",
+                      "@Type": "STRING",
+                      "Value": {
+                        "@RegularExpression": "0",
+                        "#text": "su"
+                      }
+                    },
+                    {
+                      "@Name": "class",
+                      "@Hidden": "1",
+                      "@ReadOnly": "1",
+                      "@Type": "STRING",
+                      "Value": {
+                        "@RegularExpression": "0",
+                        "#text": "bg s_btn"
+                      }
+                    },
+                    {
+                      "@Name": "acc_name",
+                      "@Hidden": "1",
+                      "@ReadOnly": "1",
+                      "@Type": "STRING",
+                      "Value": {
+                        "@RegularExpression": "0"
+                      }
+                    }
+                  ]
+                },
+                "BasicIdentification": {
+                  "PropertyRef": [
+                    "micclass",
+                    "_xpath",
+                    "type",
+                    "name",
+                    "html tag"
+                  ]
+                },
+                "SmartIdentification": {
+                  "@Algorithm": "Mercury.TolerantPriority",
+                  "@Active": "1",
+                  "BaseFilter": {
+                    "PropertyRef": "micclass"
+                  },
+                  "OptionalFilter": {
+                    "PropertyRef": [
+                      "html id",
+                      "value",
+                      "class",
+                      "visible",
+                      "acc_name"
+                    ]
+                  }
+                },
+                "LastUpdateTime": "Wednesday, July 27, 2022 2:25:01 PM",
+                "ChildObjects": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "CheckpointsAndOutputs": null,
+    "Parameters": null,
+    "Metadata": null
+  }
