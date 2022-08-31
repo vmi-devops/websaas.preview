@@ -5,3 +5,4 @@ trigger build3 from github action
 trigger buidl
 
 trigger
+trigger build
